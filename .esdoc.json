@@ -1,0 +1,11 @@
+{
+  "source": "./static/js",
+  "destination": "./doc/",
+  "plugins": [
+  {
+    "name": "esdoc-standard-plugin",
+    "option": {
+      "unexportedIdentifier": {"enable": true}
+    }
+  }]
+}
