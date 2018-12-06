@@ -3,7 +3,7 @@ Package `es6-logger` contains basic class which creates log's with custom inform
 
 #### How to install package
 ```bash
-npm install @Frantab/Logger --save-dev
+npm install es6-logger --save-dev
 ```
 
 #### Example of usage.
