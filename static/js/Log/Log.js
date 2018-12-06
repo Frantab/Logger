@@ -46,7 +46,7 @@ class Log {
 	 * @return {String}
 	 */
 	toString() {
-		return `Log ${this.type}:\n${this.message}\n---\n${this.data}`;
+		return `Log ${this.type}:\n${this.message}\n---\n${this.data || 'No extra data in log.'}`;
 	}
 }
 

@@ -22,7 +22,7 @@ class Logger {
 	 * @param {*} data data - Data of the log.
 	 * @return {Log}
 	 */
-	log(type, message, data) {
+	log(type, message, data = null) {
 		const log = new Log(type, message, data);
 
 		this.logs.push(log);
