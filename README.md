@@ -8,7 +8,7 @@ npm install @Frantab/Logger --save-dev
 
 #### Example of usage.
 ```javascript
-const {Logger} = require('@Frantab/Logger');
+const {Logger} = require('Logger');
 const myLogger = new Logger('myLogger');
 const sayHelloWorld = () => {
 	try {

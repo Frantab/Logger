@@ -1,5 +1,5 @@
 {
-  "name": "@Frantab/Logger",
+  "name": "Logger",
   "version": "0.1.0",
   "description": "Javascript class for logging of process of javascript code.",
   "main": "dist/Logger.js",
