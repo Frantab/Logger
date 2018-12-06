@@ -32,7 +32,7 @@ gulp.task('build', ['lint'], () => {
 			presets: ['env']
 		}))
 		.on('error', showError)
-		.pipe(rename('Logger.js'))
+		.pipe(rename('es6-logger.js'))
 		.pipe(gulp.dest(distDir))
 });
 

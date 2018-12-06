@@ -1,5 +1,5 @@
-# Logger
-Package `Logger` contains basic class which creates log's with custom information about one process in javascript (return of function for example).
+# es6-logger
+Package `es6-logger` contains basic class which creates log's with custom information about one process in javascript (return of function for example).
 
 #### How to install package
 ```bash
@@ -8,7 +8,7 @@ npm install @Frantab/Logger --save-dev
 
 #### Example of usage.
 ```javascript
-const {Logger} = require('Logger');
+const {Logger} = require('es6-logger');
 const myLogger = new Logger('myLogger');
 const sayHelloWorld = () => {
 	try {
